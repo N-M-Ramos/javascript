@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(190, 190, 255);
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2em;
+        }
+
+        h1{
+            color: black;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 5em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, mundo!</h1>
+    <p>Já me livrei da maldição!</p>
+    <script>
+        var n1 = Number.parseInt(window.prompt('Escreve um número:')) //apesar de receber a informação com número o prompt transforma em string
+        var n2 = Number.parseInt(window.prompt('Escreve outro número:'))
+        var s = n1 + n2
+        window.alert('A soma dos valores é ' + s) // Concatenação
+        // + serve para adição mas também para concatenação
+        // (number + number) adição
+        // (string + string) concatenação
+    </script>
+</body>
+</html>
