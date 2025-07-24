@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+div#area {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: aqua;
+    color: black;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+
+}
